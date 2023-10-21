@@ -1,0 +1,77 @@
+body {
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #eeeeee;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+.form {
+  width: 40%;
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 50px 30px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7c04a;
+}
+
+.left-side {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+}
+.left-side img {
+  margin-right: 5px;
+}
+.password,
+.username {
+  margin: 20px auto;
+}
+label {
+  width: 100%;
+  margin-bottom: 5px;
+}
+label + input {
+  outline: none;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-weight: 400;
+  padding: 2px 10px;
+}
+label + input:focus {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid black;
+}
+.title {
+  margin: 5px auto;
+  text-align: center;
+  font-size: 40px;
+}
+
+.submit {
+  width: 100%;
+  text-align: center;
+  margin: 5px auto;
+}
+.btn {
+  width: 100%;
+}
+.alert {
+  margin: 10px auto;
+  text-align: center;
+}
